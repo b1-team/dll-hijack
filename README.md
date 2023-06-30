@@ -29,7 +29,7 @@ Dll hijack -- just one macro
       use std::process;
       
        fn test() {
-        process::Command::new("calc").spawn().unwrap();
+           process::Command::new("calc").spawn().unwrap();
        }
        ```
       
@@ -40,7 +40,7 @@ Dll hijack -- just one macro
 
       #[hijack("nio.dll", "nio.dll.1")]
       fn test() {
-      process::Command::new("calc").spawn().unwrap();
+          process::Command::new("calc").spawn().unwrap();
       }
       ```
 
