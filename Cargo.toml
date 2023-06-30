@@ -1,0 +1,16 @@
+[package]
+name = "dll-hijack"
+version = "1.0.0"
+edition = "2021"
+description = "Dll hijack -- just one macro"
+authors = ["b1n <b1nhack@proton.me>"]
+license-file = "LICENSE"
+repository = "https://github.com/b1-team/dll-hijack"
+homepage = "https://twitter.com/b1nhack"
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+windows-sys = { version = "0.48.0", features = ["Win32_Foundation", "Win32_System_SystemServices", "Win32_System_Threading", "Win32_System_Kernel", "Win32_System_WindowsProgramming", "Win32_System_LibraryLoader", "Win32_UI_Shell"] }
+dll-hijack-derive = "1.0.0"
