@@ -1,6 +1,6 @@
 [package]
 name = "dll-hijack"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2021"
 description = "Dll hijack -- just one macro"
 authors = ["b1n <b1nhack@proton.me>"]
@@ -8,6 +8,7 @@ license-file = "LICENSE"
 repository = "https://github.com/b1-team/dll-hijack"
 homepage = "https://twitter.com/b1nhack"
 readme = "README.md"
+exclude = ["/demo"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
